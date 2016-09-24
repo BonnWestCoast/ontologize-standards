@@ -42,11 +42,11 @@ ul li {
   text-align: center;
 }
 .menu .navbar-default .navbar-nav > li > a {
-  font-size: 15px;
+  font-size: 19px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #666;
-  padding: 5px 15px;
+  padding: 11px 15px;
 }
 .menu .navbar-default .navbar-nav > li > a:hover {
   color: #f48e5c;
@@ -74,6 +74,9 @@ header .logo {
   display: inline-block;
   margin-top: 8px;
 }
+header .logo img {
+  height: 35px;
+}
 header .social-info {
   margin-bottom: 0;
   padding-top: 8px;
@@ -100,6 +103,7 @@ header .social-info li a:hover {
 }
 #banner .app-img {
   padding-top: 10px;
+  height: 298px;
 }
 #banner .block > p {
   margin-bottom: 65px;
@@ -221,7 +225,7 @@ header .social-info li a:hover {
   color: #666;
 }
 #feature {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 #feature .title {
   font-weight: 300;
@@ -255,7 +259,7 @@ header .social-info li a:hover {
   display: inline-block;
 }
 #utility {
-  background: #f6f6f7;
+  background: #F2F2F2;
   padding: 20px 0 30px 0;
 }
 #utility .block h2 {
@@ -268,10 +272,11 @@ header .social-info li a:hover {
   font-size: 16px;
 }
 #utility-2 {
-  padding: 40px 0 10px 0;
+  padding: 26px 0 10px 0;
 }
 #utility-2 .block {
-  padding-top: 100px;
+  padding-top: 0;
+  padding-bottom: 70px;
 }
 #utility-2 .block h2 {
   color: #666;
@@ -281,6 +286,11 @@ header .social-info li a:hover {
   color: #9AA0A9;
   font-size: 16px;
 }
+
+#utility-2 .img-responsive {
+  padding-top: 30px;
+}
+
 #subscribe {
   padding: 70px 0;
 }
