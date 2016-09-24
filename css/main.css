@@ -100,6 +100,7 @@ header .social-info li a:hover {
   background-size: cover;
   position: relative;
   padding: 100px 0;
+  background: url('../images/patterns/gplaypattern.png') repeat;
 }
 #banner .app-img {
   padding-top: 10px;
@@ -176,7 +177,6 @@ header .social-info li a:hover {
   padding: 30px 0;
 }
 #service .service-wrapper {
-  border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   padding: 110px 0;
 }
